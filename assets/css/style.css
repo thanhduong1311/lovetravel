@@ -481,7 +481,7 @@ list-style: 1.5;
 /* slider-body */
 .content__section-slide {
     width: 100%;
-    background-image: url('/assets/img/slider/parallax-1.jpg');
+    background-image: url('http://www.nicdarkthemes.com/themes/travel/wp/demo/travel/wp-content/uploads/sites/2/2018/03/parallax-1.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 12px;
@@ -558,7 +558,7 @@ transition: transform linear 0.3s;
     cursor: pointer;
 }
 .content__section-slide-sumary {
-    background-image: url('/assets/img/slider/parallax-3.jpg');
+    background-image: url('http://www.nicdarkthemes.com/themes/travel/wp/demo/travel/wp-content/uploads/sites/2/2018/04/parallax-3.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
@@ -661,19 +661,21 @@ display: flex;
 }
 
 .request-form-short-input {
+    width: 100%;
      outline: none;
      border: none;
      background-color: #4a515b;
-     margin: 10px 5px;
+     margin: 10px 0px;
      padding: 10px 20px ;
      color: #666;
 }
 
 .request-form-tall-input{
+    width: 100%;
    outline: none;
    border: none;
    background-color: #4a515b;
-   margin: 10px 5px;
+   margin: 10px 0px;
    padding: 10px 20px ;
    min-height: 160px;
    color: #666;
@@ -788,7 +790,8 @@ line-height: 1.5;
 }
 
 .contact-option{
-
+margin-bottom: 20px;
+width: 100%;
 }
 
 .contact-option-name{
@@ -852,4 +855,24 @@ transition: ease 0.9s;
 .subcribe-btn:hover {
     cursor: pointer;
     opacity: 0.8;
+}
+.copy-right {
+    width: 100%;
+    text-align: center;
+    color: #A3A3A4;
+    padding: 20px;
+}
+
+
+
+/* responsive */
+
+.menu-in-phone-tablet{
+    margin-top: 10px;
+    font-size: 24px;
+    color: #A4A4A4;
+    display: none;
+}
+.open-menu-M-T:checked ~ .nav-bar-list-item {
+    display: block;
 }
