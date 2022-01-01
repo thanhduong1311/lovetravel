@@ -1,0 +1,35 @@
+
+html{
+    font-family: 'Open Sans', sans-serif;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+:root {
+    --header-height: 50px;
+}
+
+.bg-yellow {
+    background-color: #ffd205;
+}
+
+.bg-green {
+    background-color: #1bbc9b;
+}
+.bg-blue {
+    background-color: #14b9d5;
+}
+.bg-red {
+    background-color: #f76570;
+}
+
+
+.berlin-property {   background-color: #ba71da;   }
+.new-delhi-property {   background-color: #32c3a5;   }
+.london-property {   background-color: #f76570   }
+.cuba-property {   background-color: #1bbc9b;   }
+.rome-property {   background-color: #f3a46b;   }
+.dubai-property {   background-color: #ffd205;   }

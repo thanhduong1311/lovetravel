@@ -1,0 +1,25 @@
+/* mobile and tablet */
+@media (max-width:1023px) {
+    .hide-on-mobibe-tablet {
+        display: none;
+    }
+      .nav-bar-logo {
+          display: flex;
+          width: 100%;
+        justify-content: center;
+
+      }
+  
+}
+/* tablet */
+@media (min-width: 740px) and (max-width:1023px) {
+    .hide-on-mobibe-tablet {
+        display: none;
+    }
+}
+/* mobile  */
+@media (max-width:739px) {
+    .hide-on-mobibe-tablet {
+        display: none;
+    }
+}
